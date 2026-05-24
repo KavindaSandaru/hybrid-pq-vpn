@@ -410,13 +410,16 @@ Additional prototype limitations:
 
 # Screenshots
 
-Suggested screenshots:
+<img width="1902" height="939" alt="image" src="https://github.com/user-attachments/assets/a4918bbf-e5d7-4728-9a21-0e8919dcfdf0" />
 
-* Manager dashboard
-* Client runtime
-* Encrypted Wireshark traffic
-* VPN tunnel interface
-* Tauri desktop application
+<img width="1901" height="941" alt="image" src="https://github.com/user-attachments/assets/81efa393-4d39-4f7a-abae-981b4276db02" />
+
+<img width="1902" height="939" alt="image" src="https://github.com/user-attachments/assets/ad10a41c-4eb4-44e7-8750-c499cb005449" />
+
+<img width="1897" height="939" alt="image" src="https://github.com/user-attachments/assets/800f35e3-b614-46a4-a9f1-3797fb234465" />
+
+<img width="1917" height="1031" alt="image" src="https://github.com/user-attachments/assets/da720aa8-fa02-4e83-a6aa-ffa59c60a1be" />
+
 
 ---
 
