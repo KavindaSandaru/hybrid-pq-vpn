@@ -1,0 +1,11 @@
+"windows": [
+  {
+    "title": "NTZ Server",
+    "width": 1600,
+    "height": 950,
+    "resizable": true,
+    "decorations": false,
+    "transparent": false,
+    "fullscreen": false
+  }
+]

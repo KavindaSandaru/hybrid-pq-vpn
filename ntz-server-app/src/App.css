@@ -1,0 +1,200 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#020617;
+  overflow:hidden;
+  font-family:
+    Inter,
+    sans-serif;
+}
+
+.app{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+}
+
+.titlebar{
+  height:46px;
+  background:#020617;
+  border-bottom:
+    1px solid rgba(255,255,255,0.06);
+
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+
+  padding:0 14px;
+
+  -webkit-app-region:drag;
+}
+
+.title-left{
+  color:white;
+  font-weight:700;
+  letter-spacing:2px;
+}
+
+.title-actions{
+  display:flex;
+  gap:6px;
+
+  -webkit-app-region:no-drag;
+}
+
+.title-actions button{
+  width:34px;
+  height:34px;
+
+  border:none;
+  border-radius:10px;
+
+  background:transparent;
+  color:white;
+
+  cursor:pointer;
+}
+
+.title-actions button:hover{
+  background:
+    rgba(255,255,255,0.08);
+}
+
+.title-actions .close:hover{
+  background:#ef4444;
+}
+
+.layout{
+  flex:1;
+  display:flex;
+}
+
+.sidebar{
+  width:250px;
+  background:#020617;
+
+  border-right:
+    1px solid rgba(255,255,255,0.06);
+
+  padding:24px;
+}
+
+.logo{
+  color:white;
+  font-size:28px;
+  font-weight:800;
+
+  margin-bottom:40px;
+}
+
+.sidebar nav{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.sidebar button{
+  border:none;
+  background:
+    rgba(255,255,255,0.04);
+
+  color:white;
+
+  padding:14px 18px;
+
+  border-radius:16px;
+
+  cursor:pointer;
+
+  text-align:left;
+
+  transition:0.2s;
+}
+
+.sidebar button:hover{
+  background:
+    rgba(255,255,255,0.08);
+}
+
+.content{
+  flex:1;
+  background:#0f172a;
+}
+
+.content iframe{
+  width:100%;
+  height:100%;
+  border:none;
+}
+
+.loading-screen{
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  color:white;
+}
+
+.loading-logo{
+  width:90px;
+  height:90px;
+
+  border-radius:28px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #3b82f6,
+      #06b6d4
+    );
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  font-size:32px;
+  font-weight:800;
+
+  margin-bottom:28px;
+
+  box-shadow:
+    0 0 50px
+    rgba(59,130,246,0.4);
+}
+
+.loading-screen h1{
+  font-size:34px;
+  margin-bottom:12px;
+}
+
+.loading-screen p{
+  color:#94a3b8;
+}
+
+.spinner{
+  width:46px;
+  height:46px;
+
+  margin-top:30px;
+
+  border-radius:50%;
+
+  border:4px solid
+    rgba(255,255,255,0.1);
+
+  border-top-color:#3b82f6;
+
+  animation:spin 1s linear infinite;
+}
+
+@keyframes spin{
+
+  to{
+    transform:rotate(360deg);
+  }
+}
